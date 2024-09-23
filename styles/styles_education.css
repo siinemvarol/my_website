@@ -1,0 +1,69 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: darkviolet;
+}
+
+ul {
+    background-color: blanchedalmond;
+    width: 75%;
+    border-radius: 10px;
+}
+
+.bold_text {
+    font-style: italic;
+    font-weight: 600;
+}
+
+#ramazan{
+    height: 180px;
+}
+
+#marmara{
+    height: 200px;
+}
+
+#bilgeadam{
+    height: 150px;
+}
+
+.pictures {
+    border-radius: 3px;
+    margin: 8px;
+}
+
+#first_li {
+    animation: change_background1 4s infinite;
+}
+
+#second_li {
+    animation: change_background2 4s infinite;
+}
+
+#third_li {
+    animation: change_background3 4s infinite;
+}
+
+#first_li, #second_li, #third_li {
+    background-color: aquamarine;
+    margin: 3px 22px;
+    border-radius: 13px;
+    padding: 5px;
+}
+
+@keyframes change_background1 {
+    from {background-color: aquamarine;}
+    to {background-color: lightcoral;}
+}
+
+@keyframes change_background2 {
+    from {background-color: aquamarine;}
+    to {background-color: lightskyblue;}
+}
+
+@keyframes change_background3 {
+    from {background-color: aquamarine;}
+    to {background-color: violet ;}
+}

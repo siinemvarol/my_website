@@ -1,0 +1,14 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: darkviolet;
+}
+
+p {
+    background-color: blanchedalmond;
+    width: 75%;
+    border-radius: 10px;
+    padding: 4px 12px;
+}

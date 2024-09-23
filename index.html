@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>About Sinem</title>
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <h1>Sinem Varol</h1>
+    <nav>
+        <a class="navlinks" href="./pages/aboutme.html" target="_blank">About Me</a>
+
+        <a class="navlinks" href="./pages/education.html" target="_blank">Education</a>
+
+        <a class="navlinks" href="./pages/hobbies.html" target="_blank">Hobbies</a>
+
+        <a class="navlinks" href="./pages/contact.html" target="_blank">Contact Me</a>
+    </nav>
+    <br>
+    <img id="sinem_photo" src="./assets/images/sinem_photo.jpg">
+
+    <br>
+    <button onclick="smallertext()">Smaller Text</button>
+    <button onclick="biggerText()">Bigger Text</button>
+    <button onclick="randomColors()">Change Random Colors</button>
+    <button onclick="smallerPicture()">Shrink Picture</button>
+
+    <br><br>
+    <form onsubmit="formSubmit()">
+        <label for="first_name">First Name: </label>
+        <input type="text" id="first_name"> <br>
+        <label for="last_name">Last Name: </label>
+        <input type="text" id="last_name"> <br>
+        <label for="email_address">Email Address: </label>
+        <input type="email" id="email_address"> <br>
+        <input type="submit" name="submit">
+    </form>
+
+</body>
+
+</html>

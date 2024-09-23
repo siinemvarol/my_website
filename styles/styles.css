@@ -1,0 +1,28 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkslateblue;
+}
+
+.navlinks {
+    background: lightsteelblue;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    padding: 4px 2px;
+}
+
+#sinem_photo {
+    height: 450px;
+    border: 3px solid lime;
+    animation: borderchange 3s infinite;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+@keyframes borderchange {
+    from {border: 3px solid lime;}
+    to {border: 8px solid fuchsia;}
+}
